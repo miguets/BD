@@ -1,0 +1,22 @@
+CREATE DATABASE "Empresa" ENCODING UTF8;
+
+insert into empleado("Nombre", "ApPat", "ApMat", "Calle", "Colonia", "CP", "DiaNac", "MesN", "AñoN", "NSS", "SEXO", "Salario", "NSSSuper", "ND") VALUES ('CESAR', 'RAMOS', 'CRUZ','KK','ALAA',12345,1,2,3,2,'M',2000,2,1);
+
+CREATE TABLE EMPLEADO(
+"Nombre" VARCHAR(50) NULL,
+"ApPat" VARCHAR(50) NULL,
+"ApMat" VARCHAR(50) NULL,
+"Calle" VARCHAR(50) NULL,
+"Colonia" VARCHAR(50) NULL,
+"CP" VARCHAR(50) NULL,
+"DiaNac" INT NULL,
+"MesN" INT NULL,
+"AñoN" INT NULL,
+"NSS" INT NOT NULL PRIMARY KEY,
+"SEXO" CHAR(1) NULL,
+"Salario" INT NULL,
+"NSSSuper" INT NULL,
+"ND" INT NULL
+);
+
+insert into empleado VALUES ('CESAR', 'RAMOS', 'CRUZ','KK','ALAA',12345,1,2,3,2,'M',2000,2,1);
